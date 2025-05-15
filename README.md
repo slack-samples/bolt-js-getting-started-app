@@ -32,7 +32,7 @@ export SLACK_APP_TOKEN=<your-app-level-token> # from the Basic Info App Token Se
 
 ```zsh
 # Clone this project onto your machine
-git clone https://github.com/slackapi/bolt-js-getting-started-app.git
+git clone https://github.com/slack-samples/bolt-js-getting-started-app.git
 
 # Change into the project
 cd bolt-js-getting-started-app/
