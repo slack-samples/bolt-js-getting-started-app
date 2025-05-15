@@ -14,7 +14,7 @@ responding to events and interactive buttons.
 - Go to https://api.slack.com/apps
 - Click **Create App**
 - Choose a workspace
-- Enter App Manifest using contents of `manifest.yaml`
+- Enter App Manifest using contents of `manifest.json`
 - Click **Create**
 
 Once the app is created click **Install to Workspace**
