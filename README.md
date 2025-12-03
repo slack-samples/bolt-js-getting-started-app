@@ -49,7 +49,7 @@ npm run start
 
 ### 4. Test
 
-Go to the installed workspace and type **Hello** in a DM to your new bot. You can also type **Hello** in a channel where the bot is present
+Go to the installed workspace and type "hello" in a DM to your new bot. You can also type "hello" in a channel where the bot is present.
 
 ## Contributing
 
