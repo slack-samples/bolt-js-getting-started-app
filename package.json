@@ -3,9 +3,9 @@
   "version": "2.0.0",
   "description": "Getting Started ⚡️ Bolt for JavaScript",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "license": "MIT",
   "dependencies": {
