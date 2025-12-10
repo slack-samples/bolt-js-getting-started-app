@@ -1,9 +1,9 @@
-const { App } = require('@slack/bolt');
+import { App } from '@slack/bolt';
 
 /**
- * This sample slack application uses SocketMode.
+ * This sample Slack application uses Socket Mode.
  * For the companion getting started setup guide, see:
- * https://tools.slack.dev/bolt-js/getting-started/
+ * https://docs.slack.dev/tools/bolt-js/getting-started/
  */
 
 // Initializes your app with your bot token and app token
