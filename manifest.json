@@ -15,12 +15,19 @@
   },
   "oauth_config": {
     "scopes": {
-      "bot": ["channels:history", "chat:write", "im:history"]
+      "bot": [
+        "channels:history",
+        "chat:write",
+        "im:history"
+      ]
     }
   },
   "settings": {
     "event_subscriptions": {
-      "bot_events": ["message.channels", "message.im"]
+      "bot_events": [
+        "message.channels",
+        "message.im"
+      ]
     },
     "interactivity": {
       "is_enabled": true
