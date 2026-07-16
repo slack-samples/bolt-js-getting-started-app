@@ -7,9 +7,40 @@
 This is a Slack app built with the [Bolt for JavaScript framework][2] that showcases
 responding to events and interactive buttons.
 
-## Running locally
+## Installation
 
-### 0. Create a new Slack App
+### Using Slack CLI
+
+Install the latest version of the Slack CLI for your operating system:
+
+- [Slack CLI for macOS & Linux](https://docs.slack.dev/tools/slack-cli/guides/installing-the-slack-cli-for-mac-and-linux/)
+- [Slack CLI for Windows](https://docs.slack.dev/tools/slack-cli/guides/installing-the-slack-cli-for-windows/)
+
+You'll also need to log in if this is your first time using the Slack CLI.
+
+```sh
+slack login
+```
+
+#### Initializing the project
+
+```sh
+slack create bolt-js-getting-started --template slack-samples/bolt-js-getting-started-app
+cd bolt-js-getting-started
+```
+
+#### Running the app
+
+```sh
+slack run
+```
+
+<details>
+<summary><h3>Using Terminal</h3></summary>
+
+### Running locally
+
+#### 0. Create a new Slack App
 
 - Go to https://api.slack.com/apps
 - Click **Create App**
@@ -20,7 +51,7 @@ responding to events and interactive buttons.
 Once the app is created click **Install to Workspace**
 Then scroll down in Basic Info and click **Generate Token and Scopes** with both scopes
 
-### 1. Setup environment variables
+#### 1. Setup environment variables
 
 ```zsh
 # Replace with your bot and app token
@@ -28,7 +59,7 @@ export SLACK_BOT_TOKEN=<your-bot-token> # from the OAuth section
 export SLACK_APP_TOKEN=<your-app-level-token> # from the Basic Info App Token Section
 ```
 
-### 2. Setup your local project
+#### 2. Setup your local project
 
 ```zsh
 # Clone this project onto your machine
@@ -41,15 +72,17 @@ cd bolt-js-getting-started-app/
 npm install
 ```
 
-### 3. Start servers
+#### 3. Start servers
 
 ```zsh
 npm run start
 ```
 
-### 4. Test
+#### 4. Test
 
 Go to the installed workspace and type "hello" in a DM to your new bot. You can also type "hello" in a channel where the bot is present.
+
+</details>
 
 ## Contributing
 
